@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\test_batch.dir/objects.a
-C:\Users\12457\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\ar.exe qc CMakeFiles\test_batch.dir/objects.a @CMakeFiles\test_batch.dir\objects1.rsp
-C:\Users\12457\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\c++.exe  -include "D:/Aibox/compat/compat.h" -Wl,--whole-archive CMakeFiles\test_batch.dir/objects.a -Wl,--no-whole-archive -o test_batch.exe -Wl,--out-implib,libtest_batch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_batch.dir\linkLibs.rsp
