@@ -11,10 +11,8 @@ include_directories(
     ${LIBS_DIR}/include/rga
 )
 
-link_directories(${LIBS_DIR}/lib)
-
 add_executable(test test.cpp)
 add_executable(gen_test_img gen_test_img.cpp)
 
-target_link_libraries(test rknn_api rknnrt rga)
-target_link_libraries(gen_test_img rknn_api rknnrt rga)
+target_link_directories(test PRIVATE ${LIBS_DIR}/lib)
+target_link_libraries(test PRIVATE rknnrt rga)
