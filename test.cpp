@@ -478,7 +478,7 @@ int main(int argc, char* argv[]) {
         stbi_write_bmp(out_path, src_width, src_height, 3, bmp_data);
 
         free(src_buf);
-        stbi_image_stbi_image_free(bmp_data);
+        stbi_image_free(bmp_data);
     }
 
     closedir(dir);
