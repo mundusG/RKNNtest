@@ -1,0 +1,4 @@
+D:/Aibox/build/CMakeFiles/test_batch.dir
+D:/Aibox/build/CMakeFiles/gen_test_img.dir
+D:/Aibox/build/CMakeFiles/edit_cache.dir
+D:/Aibox/build/CMakeFiles/rebuild_cache.dir
